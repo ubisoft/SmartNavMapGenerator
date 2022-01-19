@@ -1,0 +1,85 @@
+{
+    "TerrainGenerator" : {
+        "Volume" : {
+            "x" : 5,
+            "y" : 5,
+            "z" : 5
+        },
+        "Spacing" : {
+            "x" : 0.150000005960464,
+            "y" : 0.150000005960464,
+            "z" : 0.150000005960464
+        },
+        "Scale" : 6,
+        "surfacelevel" : 0,
+        "seed" : 0,
+        "PrewarpStrength" : 0,
+        "Height" : 2,
+        "HardFloor" : 1.5,
+        "HardFloorWeight" : 40,
+        "Octaves" : [
+            {
+                "Frequency" : 1.00999999046326,
+                "Amplitude" : 1
+            },
+            {
+                "Frequency" : 0.5,
+                "Amplitude" : 2
+            },
+            {
+                "Frequency" : 0.200000002980232,
+                "Amplitude" : 6
+            }
+        ],
+        "GenerateOverhangs" : true,
+        "OverhangHeight" : 0.5,
+        "OverhangHeightWarping" : 0.5,
+        "OverhangStrength" : 20,
+        "GenerateTerraces" : false,
+        "TerraceHeight" : 0.0500000007450581,
+        "TerraceHeightWarping" : 0.5,
+        "TerraceStrength" : 20
+    },
+    "BuildingGenerator" : {
+        "GenerateBuildings" : false,
+        "PlatformGenerationStep" : {
+            "MinNbPlatforms" : 0,
+            "MaxNbPlatforms" : 1,
+            "InnerRadius" : 3,
+            "OuterRadius" : 4,
+            "MinHeight" : 0,
+            "MaxHeight" : 4,
+            "NonOverlapping" : true,
+            "PlatformsWarping" : 1,
+            "Tries" : 10000
+        },
+        "windowPercentChance" : 0.300000011920929,
+        "doorPercentChance" : 0.200000002980232,
+        "outsideStairPercentChance" : 0.200000002980232,
+        "insideStairPercentChance" : 0.200000002980232,
+        "newRowColChance" : 0.200000002980232,
+        "rows" : 3,
+        "columns" : 3,
+        "randomizeBounds" : true,
+        "cellUnitSize" : 1,
+        "nbOfFloors" : 1,
+        "DebugSeed" : -1
+    },
+    "JumppadGenerator" : {
+        "GenerateJumpPads" : true,
+        "SteepnessThreshold" : 4,
+        "MinFlatness" : -0.5,
+        "SearchRadius" : 5,
+        "ClusterRadius" : 5,
+        "MinNbJumpPads" : 7,
+        "MaxNbJumpPads" : 7,
+        "DebugSeed" : -1,
+        "DebugDisplay" : false
+    },
+    "GroundGenerator" : {
+        "GenerateGrounds" : false,
+        "LavaProbability" : 0.5,
+        "WaterProbability" : 0.5,
+        "DebugSeed" : -1
+    }
+}

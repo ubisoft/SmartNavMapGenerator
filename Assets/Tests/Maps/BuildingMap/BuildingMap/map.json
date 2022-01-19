@@ -1,0 +1,1157 @@
+{
+    "name" : "BuildingMap",
+    "position" : {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+    },
+    "rotation" : {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0,
+        "w" : 1
+    },
+    "scale" : {
+        "x" : 1,
+        "y" : 1,
+        "z" : 1
+    },
+    "tag" : "Map",
+    "layer" : 0,
+    "children" : [
+        {
+            "name" : "Terrain",
+            "position" : {
+                "x" : 0,
+                "y" : 0,
+                "z" : 0
+            },
+            "rotation" : {
+                "x" : 0,
+                "y" : 0,
+                "z" : 0,
+                "w" : 1
+            },
+            "scale" : {
+                "x" : 1,
+                "y" : 1,
+                "z" : 1
+            },
+            "tag" : "Terrain",
+            "layer" : 30,
+            "terrain" : "terrain.bin"
+        },
+        {
+            "name" : "Building_(2.3, 1.5, 2.2)",
+            "position" : {
+                "x" : 1.84865164756775,
+                "y" : 1.5,
+                "z" : 1.46250760555267
+            },
+            "rotation" : {
+                "x" : 0,
+                "y" : 0,
+                "z" : 0,
+                "w" : 1
+            },
+            "scale" : {
+                "x" : 0.5,
+                "y" : 0.5,
+                "z" : 0.5
+            },
+            "tag" : "Untagged",
+            "layer" : 29,
+            "children" : [
+                {
+                    "name" : "Room_0_0_0",
+                    "position" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "Untagged",
+                    "layer" : 0,
+                    "children" : [
+                        {
+                            "name" : "Wall_Grey_Wall_01(Clone)_0",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0.707106828689575,
+                                "z" : 0,
+                                "w" : 0.707106828689575
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Wall_Grey_Wall_01"
+                        },
+                        {
+                            "name" : "Wall_Grey_Wall_01(Clone)_1",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 1,
+                                "z" : 0,
+                                "w" : -4.37113882867379E-08
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Wall_Grey_Wall_01"
+                        },
+                        {
+                            "name" : "Roof_Plate_Wood_01(Clone)_2",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Roof_Plate_Wood_01"
+                        },
+                        {
+                            "name" : "Floor_Plate_Wood_01(Clone)_3",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Floor_Plate_Wood_01"
+                        }
+                    ]
+                },
+                {
+                    "name" : "Room_0_1_0",
+                    "position" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "Untagged",
+                    "layer" : 0,
+                    "children" : [
+                        {
+                            "name" : "Wall_Grey_Wall_01(Clone)_4",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 1
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 1,
+                                "z" : 0,
+                                "w" : -4.37113882867379E-08
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Wall_Grey_Wall_01"
+                        },
+                        {
+                            "name" : "Floor_Plate_Wood_01(Clone)_5",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 1
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Floor_Plate_Wood_01"
+                        },
+                        {
+                            "name" : "IntStairs_Stairs_Wood_01(Clone)_6",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 1
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0.707106828689575,
+                                "z" : 0,
+                                "w" : 0.707106828689575
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "IntStairs_Stairs_Wood_01"
+                        }
+                    ]
+                },
+                {
+                    "name" : "Room_0_2_0",
+                    "position" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "Untagged",
+                    "layer" : 0,
+                    "children" : [
+                        {
+                            "name" : "Wall_Grey_Wall_01(Clone)_7",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 2
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 1,
+                                "z" : 0,
+                                "w" : -4.37113882867379E-08
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Wall_Grey_Wall_01"
+                        },
+                        {
+                            "name" : "ExtStairs_Stairs_Stone_01(Clone)_8",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 2
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : -0.707106828689575,
+                                "z" : 0,
+                                "w" : 0.707106828689575
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "ExtStairs_Stairs_Stone_01"
+                        },
+                        {
+                            "name" : "Floor_Plate_Wood_01(Clone)_9",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 2
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Floor_Plate_Wood_01"
+                        }
+                    ]
+                },
+                {
+                    "name" : "Room_1_0_0",
+                    "position" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "Untagged",
+                    "layer" : 0,
+                    "children" : [
+                        {
+                            "name" : "Wall_Grey_Wall_01(Clone)_10",
+                            "position" : {
+                                "x" : 1,
+                                "y" : 0,
+                                "z" : 0
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0.707106828689575,
+                                "z" : 0,
+                                "w" : 0.707106828689575
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Wall_Grey_Wall_01"
+                        },
+                        {
+                            "name" : "Roof_Plate_Wood_01(Clone)_11",
+                            "position" : {
+                                "x" : 1,
+                                "y" : 0,
+                                "z" : 0
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Roof_Plate_Wood_01"
+                        },
+                        {
+                            "name" : "Floor_Plate_Wood_01(Clone)_12",
+                            "position" : {
+                                "x" : 1,
+                                "y" : 0,
+                                "z" : 0
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Floor_Plate_Wood_01"
+                        }
+                    ]
+                },
+                {
+                    "name" : "Room_1_1_0",
+                    "position" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "Untagged",
+                    "layer" : 0,
+                    "children" : [
+                        {
+                            "name" : "Roof_Plate_Wood_01(Clone)_13",
+                            "position" : {
+                                "x" : 1,
+                                "y" : 0,
+                                "z" : 1
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Roof_Plate_Wood_01"
+                        },
+                        {
+                            "name" : "Floor_Plate_Wood_01(Clone)_14",
+                            "position" : {
+                                "x" : 1,
+                                "y" : 0,
+                                "z" : 1
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Floor_Plate_Wood_01"
+                        }
+                    ]
+                },
+                {
+                    "name" : "Room_1_2_0",
+                    "position" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "Untagged",
+                    "layer" : 0,
+                    "children" : [
+                        {
+                            "name" : "Wall_Grey_Wall_01(Clone)_15",
+                            "position" : {
+                                "x" : 1,
+                                "y" : 0,
+                                "z" : 2
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : -0.707106828689575,
+                                "z" : 0,
+                                "w" : 0.707106828689575
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Wall_Grey_Wall_01"
+                        },
+                        {
+                            "name" : "Roof_Plate_Wood_01(Clone)_16",
+                            "position" : {
+                                "x" : 1,
+                                "y" : 0,
+                                "z" : 2
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Roof_Plate_Wood_01"
+                        },
+                        {
+                            "name" : "Floor_Plate_Wood_01(Clone)_17",
+                            "position" : {
+                                "x" : 1,
+                                "y" : 0,
+                                "z" : 2
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Floor_Plate_Wood_01"
+                        }
+                    ]
+                },
+                {
+                    "name" : "Room_2_0_0",
+                    "position" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "Untagged",
+                    "layer" : 0,
+                    "children" : [
+                        {
+                            "name" : "Wall_Grey_Wall_01(Clone)_18",
+                            "position" : {
+                                "x" : 2,
+                                "y" : 0,
+                                "z" : 0
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Wall_Grey_Wall_01"
+                        },
+                        {
+                            "name" : "Wall_Grey_Wall_01(Clone)_19",
+                            "position" : {
+                                "x" : 2,
+                                "y" : 0,
+                                "z" : 0
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0.707106828689575,
+                                "z" : 0,
+                                "w" : 0.707106828689575
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Wall_Grey_Wall_01"
+                        },
+                        {
+                            "name" : "Roof_Plate_Wood_01(Clone)_20",
+                            "position" : {
+                                "x" : 2,
+                                "y" : 0,
+                                "z" : 0
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Roof_Plate_Wood_01"
+                        },
+                        {
+                            "name" : "Floor_Plate_Wood_01(Clone)_21",
+                            "position" : {
+                                "x" : 2,
+                                "y" : 0,
+                                "z" : 0
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Floor_Plate_Wood_01"
+                        }
+                    ]
+                },
+                {
+                    "name" : "Room_2_1_0",
+                    "position" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "Untagged",
+                    "layer" : 0,
+                    "children" : [
+                        {
+                            "name" : "Wall_Grey_Wall_01(Clone)_22",
+                            "position" : {
+                                "x" : 2,
+                                "y" : 0,
+                                "z" : 1
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Wall_Grey_Wall_01"
+                        },
+                        {
+                            "name" : "Roof_Plate_Wood_01(Clone)_23",
+                            "position" : {
+                                "x" : 2,
+                                "y" : 0,
+                                "z" : 1
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Roof_Plate_Wood_01"
+                        },
+                        {
+                            "name" : "Floor_Plate_Wood_01(Clone)_24",
+                            "position" : {
+                                "x" : 2,
+                                "y" : 0,
+                                "z" : 1
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Floor_Plate_Wood_01"
+                        }
+                    ]
+                },
+                {
+                    "name" : "Room_2_2_0",
+                    "position" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "Untagged",
+                    "layer" : 0,
+                    "children" : [
+                        {
+                            "name" : "Wall_Grey_Wall_01(Clone)_25",
+                            "position" : {
+                                "x" : 2,
+                                "y" : 0,
+                                "z" : 2
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Wall_Grey_Wall_01"
+                        },
+                        {
+                            "name" : "Wall_Grey_Wall_01(Clone)_26",
+                            "position" : {
+                                "x" : 2,
+                                "y" : 0,
+                                "z" : 2
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : -0.707106828689575,
+                                "z" : 0,
+                                "w" : 0.707106828689575
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Wall_Grey_Wall_01"
+                        },
+                        {
+                            "name" : "Roof_Plate_Wood_01(Clone)_27",
+                            "position" : {
+                                "x" : 2,
+                                "y" : 0,
+                                "z" : 2
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Roof_Plate_Wood_01"
+                        },
+                        {
+                            "name" : "Floor_Plate_Wood_01(Clone)_28",
+                            "position" : {
+                                "x" : 2,
+                                "y" : 0,
+                                "z" : 2
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Floor_Plate_Wood_01"
+                        }
+                    ]
+                },
+                {
+                    "name" : "Room_0_1_1",
+                    "position" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "Untagged",
+                    "layer" : 0,
+                    "children" : [
+                        {
+                            "name" : "ExtStairs_Stairs_Stone_01(Clone)_29",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "ExtStairs_Stairs_Stone_01"
+                        },
+                        {
+                            "name" : "Wall_Grey_Wall_01(Clone)_30",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0.707106828689575,
+                                "z" : 0,
+                                "w" : 0.707106828689575
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Wall_Grey_Wall_01"
+                        },
+                        {
+                            "name" : "Wall_Grey_Wall_01(Clone)_31",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 1,
+                                "z" : 0,
+                                "w" : -4.37113882867379E-08
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Wall_Grey_Wall_01"
+                        },
+                        {
+                            "name" : "Roof_Plate_Wood_01(Clone)_32",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Roof_Plate_Wood_01"
+                        }
+                    ]
+                },
+                {
+                    "name" : "Room_0_2_1",
+                    "position" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "Untagged",
+                    "layer" : 0,
+                    "children" : [
+                        {
+                            "name" : "Wall_Grey_Wall_01(Clone)_33",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 1,
+                                "z" : 2
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Wall_Grey_Wall_01"
+                        },
+                        {
+                            "name" : "Wall_Grey_Wall_01(Clone)_34",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 1,
+                                "z" : 2
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 1,
+                                "z" : 0,
+                                "w" : -4.37113882867379E-08
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Wall_Grey_Wall_01"
+                        },
+                        {
+                            "name" : "Wall_Grey_Wall_01(Clone)_35",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 1,
+                                "z" : 2
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : -0.707106828689575,
+                                "z" : 0,
+                                "w" : 0.707106828689575
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Wall_Grey_Wall_01"
+                        },
+                        {
+                            "name" : "Roof_Plate_Wood_01(Clone)_36",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 1,
+                                "z" : 2
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Roof_Plate_Wood_01"
+                        },
+                        {
+                            "name" : "Floor_Plate_Wood_01(Clone)_37",
+                            "position" : {
+                                "x" : 0,
+                                "y" : 1,
+                                "z" : 2
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "BuildingPrefab",
+                            "layer" : 29,
+                            "prefab" : "Floor_Plate_Wood_01"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

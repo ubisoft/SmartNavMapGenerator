@@ -1,0 +1,95 @@
+{
+    "name" : "GroundMap",
+    "position" : {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+    },
+    "rotation" : {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0,
+        "w" : 1
+    },
+    "scale" : {
+        "x" : 1,
+        "y" : 1,
+        "z" : 1
+    },
+    "tag" : "Map",
+    "layer" : 0,
+    "children" : [
+        {
+            "name" : "Terrain",
+            "position" : {
+                "x" : 0,
+                "y" : 0,
+                "z" : 0
+            },
+            "rotation" : {
+                "x" : 0,
+                "y" : 0,
+                "z" : 0,
+                "w" : 1
+            },
+            "scale" : {
+                "x" : 1,
+                "y" : 1,
+                "z" : 1
+            },
+            "tag" : "Terrain",
+            "layer" : 30,
+            "terrain" : "terrain.bin",
+            "children" : [
+                {
+                    "name" : "Grounds",
+                    "position" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "Untagged",
+                    "layer" : 0,
+                    "children" : [
+                        {
+                            "name" : "Ground0",
+                            "position" : {
+                                "x" : 0,
+                                "y" : -0.175000011920929,
+                                "z" : 0
+                            },
+                            "rotation" : {
+                                "x" : 0,
+                                "y" : 0,
+                                "z" : 0,
+                                "w" : 1
+                            },
+                            "scale" : {
+                                "x" : 1,
+                                "y" : 1,
+                                "z" : 1
+                            },
+                            "tag" : "Ground",
+                            "layer" : 31,
+                            "prefab" : "ground",
+                            "properties" : {
+                                "_type" : 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

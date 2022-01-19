@@ -1,0 +1,8 @@
+newmtl Light_Stone
+Kd 0.882353 0.886275 0.901961
+d 1
+
+newmtl Dark_Stone
+Kd 0.780392 0.784314 0.8
+d 1
+

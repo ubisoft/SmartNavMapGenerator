@@ -1,0 +1,16 @@
+{
+    "name": "MapGenerator",
+    "rootNamespace": "",
+    "references": [
+        "GUID:65d5cc29529a5424da09bb4212c3e275"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

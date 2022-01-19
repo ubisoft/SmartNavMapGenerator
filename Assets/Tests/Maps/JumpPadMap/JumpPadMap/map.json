@@ -1,0 +1,278 @@
+{
+    "name" : "JumpPadMap",
+    "position" : {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+    },
+    "rotation" : {
+        "x" : 0,
+        "y" : 0,
+        "z" : 0,
+        "w" : 1
+    },
+    "scale" : {
+        "x" : 1,
+        "y" : 1,
+        "z" : 1
+    },
+    "tag" : "Map",
+    "layer" : 0,
+    "children" : [
+        {
+            "name" : "Terrain",
+            "position" : {
+                "x" : 0,
+                "y" : 0,
+                "z" : 0
+            },
+            "rotation" : {
+                "x" : 0,
+                "y" : 0,
+                "z" : 0,
+                "w" : 1
+            },
+            "scale" : {
+                "x" : 6,
+                "y" : 6,
+                "z" : 6
+            },
+            "tag" : "Terrain",
+            "layer" : 30,
+            "terrain" : "terrain.bin"
+        },
+        {
+            "name" : "Jump Pads",
+            "position" : {
+                "x" : 0,
+                "y" : 0,
+                "z" : 0
+            },
+            "rotation" : {
+                "x" : 0,
+                "y" : 0,
+                "z" : 0,
+                "w" : 1
+            },
+            "scale" : {
+                "x" : 1,
+                "y" : 1,
+                "z" : 1
+            },
+            "tag" : "Untagged",
+            "layer" : 0,
+            "children" : [
+                {
+                    "name" : "JumpPad(Clone)_0_9.0398",
+                    "position" : {
+                        "x" : 26.1000022888184,
+                        "y" : 8.93567562103271,
+                        "z" : 18
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "JumpPadPrefab",
+                    "layer" : 31,
+                    "prefab" : "jumpPad",
+                    "properties" : {
+                        "_height" : 9.03979969024658,
+                        "_position" : {
+                            "x" : 26.1000022888184,
+                            "y" : 8.93567562103271,
+                            "z" : 18
+                        }
+                    }
+                },
+                {
+                    "name" : "JumpPad(Clone)_1_13.78699",
+                    "position" : {
+                        "x" : 17.1000003814697,
+                        "y" : 8.92408561706543,
+                        "z" : 21.6000003814697
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "JumpPadPrefab",
+                    "layer" : 31,
+                    "prefab" : "jumpPad",
+                    "properties" : {
+                        "_height" : 13.7869853973389,
+                        "_position" : {
+                            "x" : 17.1000003814697,
+                            "y" : 8.92408561706543,
+                            "z" : 21.6000003814697
+                        }
+                    }
+                },
+                {
+                    "name" : "JumpPad(Clone)_2_13.70411",
+                    "position" : {
+                        "x" : 21.6000003814697,
+                        "y" : 8.95313835144043,
+                        "z" : 23.4000015258789
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "JumpPadPrefab",
+                    "layer" : 31,
+                    "prefab" : "jumpPad",
+                    "properties" : {
+                        "_height" : 13.7041149139404,
+                        "_position" : {
+                            "x" : 21.6000003814697,
+                            "y" : 8.95313835144043,
+                            "z" : 23.4000015258789
+                        }
+                    }
+                },
+                {
+                    "name" : "JumpPad(Clone)_3_4.300791",
+                    "position" : {
+                        "x" : 12.6000003814697,
+                        "y" : 9.28104209899902,
+                        "z" : 4.5
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "JumpPadPrefab",
+                    "layer" : 31,
+                    "prefab" : "jumpPad",
+                    "properties" : {
+                        "_height" : 4.30079078674316,
+                        "_position" : {
+                            "x" : 12.6000003814697,
+                            "y" : 9.28104209899902,
+                            "z" : 4.5
+                        }
+                    }
+                },
+                {
+                    "name" : "JumpPad(Clone)_4_4.230424",
+                    "position" : {
+                        "x" : 8.10000038146973,
+                        "y" : 8.9807071685791,
+                        "z" : 24.3000011444092
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "JumpPadPrefab",
+                    "layer" : 31,
+                    "prefab" : "jumpPad",
+                    "properties" : {
+                        "_height" : 4.23042392730713,
+                        "_position" : {
+                            "x" : 8.10000038146973,
+                            "y" : 8.9807071685791,
+                            "z" : 24.3000011444092
+                        }
+                    }
+                },
+                {
+                    "name" : "JumpPad(Clone)_5_4.340954",
+                    "position" : {
+                        "x" : 12.6000003814697,
+                        "y" : 8.96896743774414,
+                        "z" : 20.7000007629395
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "JumpPadPrefab",
+                    "layer" : 31,
+                    "prefab" : "jumpPad",
+                    "properties" : {
+                        "_height" : 4.3409538269043,
+                        "_position" : {
+                            "x" : 12.6000003814697,
+                            "y" : 8.96896743774414,
+                            "z" : 20.7000007629395
+                        }
+                    }
+                },
+                {
+                    "name" : "JumpPad(Clone)_6_4.025064",
+                    "position" : {
+                        "x" : 13.5,
+                        "y" : 9.02407169342041,
+                        "z" : 9
+                    },
+                    "rotation" : {
+                        "x" : 0,
+                        "y" : 0,
+                        "z" : 0,
+                        "w" : 1
+                    },
+                    "scale" : {
+                        "x" : 1,
+                        "y" : 1,
+                        "z" : 1
+                    },
+                    "tag" : "JumpPadPrefab",
+                    "layer" : 31,
+                    "prefab" : "jumpPad",
+                    "properties" : {
+                        "_height" : 4.02506351470947,
+                        "_position" : {
+                            "x" : 13.5,
+                            "y" : 9.02407169342041,
+                            "z" : 9
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
