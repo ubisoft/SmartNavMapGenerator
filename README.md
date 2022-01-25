@@ -5,7 +5,7 @@ Unity project to procedurally generate 3D terrains with buildings.
 ## Requirements
 
 - git-lfs
-- Unity >= 202.2.4f1
+- Unity >= 2020.3.19f1
 
 ## How to use
 
