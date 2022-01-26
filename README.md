@@ -7,18 +7,6 @@ Unity project to procedurally generate 3D terrains with buildings.
 - git-lfs
 - Unity >= 2020.3.19f1
 
-## How to use
-
-### Windows (Powershell)
-```powershell
-.\MapGenerator.exe -batchmode -logFile - -- <command> [options] | Write-Host
-```
-
-### Linux
-```sh
-./MapGenerator -batchmode -nographics -logFile - -- <command> [options]
-```
-
 ## Workflow
 1. Open the repo in the unity editor
 2. Hit play
@@ -30,6 +18,18 @@ Unity project to procedurally generate 3D terrains with buildings.
 7. Generate any numbers of different maps in the same style as the saved one using this command:
 ```sh
 ./MapGenerator -batchmode -nographics -logFile - -- generate --load path/to/saved/map --seed <seed> --nb-maps <n>
+```
+
+## How to use (Command line)
+
+### Windows (Powershell)
+```powershell
+.\MapGenerator.exe -batchmode -logFile - -- <command> [options] | Write-Host
+```
+
+### Linux
+```sh
+./MapGenerator -batchmode -nographics -logFile - -- <command> [options]
 ```
 
 ## To load the output of the generator in a Unity Project see [this](./Assets/MapGenerator/MapGenerator.Shared/README.md) 
