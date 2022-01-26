@@ -9,7 +9,7 @@ Unity project to procedurally generate 3D terrains with buildings.
 
 ## Workflow
 1. Open the repo in the unity editor
-2. Hit play
+2. Load the scene Assets/MapGenerator/Scenes/MapGenerator and Hit play
 3. Tweak the generation parameters in the `MapGenerator` gameobject
 4. Hit generate
 5. Repeat 3-4 until you are satisfied with the style of the map
