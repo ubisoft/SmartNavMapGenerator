@@ -19,7 +19,7 @@ Unity project to procedurally generate 3D terrains with buildings.
 ```sh
 ./MapGenerator -batchmode -nographics -logFile - -- generate --load path/to/saved/map --nb-maps <n>
 ```
-❗ You can ignore any shader warning or errors
+❗ You can ignore any shader warnings or errors
 
 ## How to use (Command line)
 
