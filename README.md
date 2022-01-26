@@ -17,7 +17,7 @@ Unity project to procedurally generate 3D terrains with buildings.
    1. Check `Save with goals` and set the number of it, if you want a set of spawn-goals immediately
 7. Generate any numbers of different maps in the same style as the saved one using this command:
 ```sh
-./MapGenerator -batchmode -nographics -logFile - -- generate --load path/to/saved/map --seed <seed> --nb-maps <n>
+./MapGenerator -batchmode -nographics -logFile - -- generate --load path/to/saved/map --nb-maps <n>
 ```
 
 ## How to use (Command line)
