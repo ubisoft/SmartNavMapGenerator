@@ -23,9 +23,12 @@ namespace LaForge.MapGenerator
             if ((meshRenderer = Map.GetComponent<MeshRenderer>()) == null)
                 meshRenderer = Map.AddComponent<MeshRenderer>();
 
-            mat = new Material(Shader.Find("MapGenerator.Shared/Terrain"));
-            LoadGradientFromResources(DEFAULT_GRADIENT);
-            meshRenderer.material = mat;
+            if (!Application.isBatchMode)
+            {
+                mat = new Material(Shader.Find("MapGenerator.Shared/Terrain"));
+                LoadGradientFromResources(DEFAULT_GRADIENT);
+                meshRenderer.material = mat;
+            }
 
             currentMesh = new Mesh();
             currentMesh.indexFormat = UnityEngine.Rendering.IndexFormat.UInt32;
@@ -83,7 +86,8 @@ namespace LaForge.MapGenerator
 
         private void Update()
         {
-            mat.SetTexture("_MainTex", texGradient);
+            if (!Application.isBatchMode)
+                mat.SetTexture("_MainTex", texGradient);
         }
 
         public bool HasMesh()
