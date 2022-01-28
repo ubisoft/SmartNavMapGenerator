@@ -6,6 +6,9 @@ In Unity Package Manager, add this git URL:
 git://https://github.com/Ubisoft-LaForge/SmartNavMapGenerator.git?path=Assets/MapGenerator/MapGenerator.Shared#0.1.2
 ```
 
+## Example
+This [repo](https://github.com/Ubisoft-LaForge/SmartNavEnvironment) contains an example of an integration of the package
+
 ## Map Loading
 
 ```c#
