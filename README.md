@@ -303,3 +303,26 @@ Uniform distance spawn-goal generation
                                uniform distance.
                                [Default: 100]
 ```
+
+## Reference
+```
+@article{DBLP:journals/corr/abs-2112-11731,
+  author    = {Edward Beeching and
+               Maxim Peter and
+               Philippe Marcotte and
+               Jilles Dibangoye and
+               Olivier Simonin and
+               Joshua Romoff and
+               Christian Wolf},
+  title     = {Graph augmented Deep Reinforcement Learning in the GameRLand3D environment},
+  journal   = {CoRR},
+  volume    = {abs/2112.11731},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2112.11731},
+  eprinttype = {arXiv},
+  eprint    = {2112.11731},
+  timestamp = {Tue, 04 Jan 2022 15:59:27 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2112-11731.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
