@@ -2,6 +2,11 @@
 
 Unity project to procedurally generate 3D terrains with buildings.
 
+## License
+
+Please read the [license](./LICENSE.txt).
+Here's a [summary](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
 ## Requirements
 
 - git-lfs
