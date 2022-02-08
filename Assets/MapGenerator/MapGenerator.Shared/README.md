@@ -1,4 +1,5 @@
 # MapGenerator.Shared package
+This package contains all the files needed to properly load a map. (c) Ubisoft 2022
 
 ## Install
 In Unity Package Manager, add this git URL:
@@ -14,9 +15,6 @@ This [repo](https://github.com/Ubisoft-LaForge/SmartNavEnvironment) can be used 
 ```c#
 LaForge.MapGenerator.MapSerializer.LoadSpawnGoalsAndMap("path/to/map/folder");
 ```
-
-This package contains all the files needed to properly load a map.
-
 ### [MapSerializer.cs](./Scripts/MapSerializer.cs)
 In most cases this is the only script you will need to interact with.
 
