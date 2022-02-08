@@ -1,6 +1,6 @@
 # Map Generator
 
-Unity project to procedurally generate 3D terrains with buildings.
+Unity project to procedurally generate 3D terrains with buildings. (c) Ubisoft 2022
 
 ## License
 
