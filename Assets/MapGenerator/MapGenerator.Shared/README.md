@@ -8,7 +8,7 @@ git://https://github.com/Ubisoft-LaForge/SmartNavMapGenerator.git?path=Assets/Ma
 ```
 
 ## Example
-This [repo](https://github.com/Ubisoft-LaForge/SmartNavEnvironment) can be used as example of an integration of the package.
+This [repo](https://github.com/Ubisoft/SmartNavEnvironment) can be used as example of an integration of the package.
 
 ## Map Loading
 
